@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: rgb(174, 60, 77);
+    background-color: red;
     color: white;
     text-align: center;
     display: flex;
@@ -53,12 +53,11 @@ main {
 
 section {
     scroll-snap-align: center;
-    background-color: #faebd7;
-    border: solid black;
-    border-radius: 30px;
+    background-color: cornsilk;
+    border: solid gold;
     padding: 5px;
-    width: 80vw;
-    height: 80vh;
+    width: 100%;
+    height: 67vh;
     margin: 40px auto;
 }
 
@@ -66,8 +65,9 @@ section {
     display: flex;
 }
 
-.images {
-    flex-wrap: wrap;
+.images .herspeelbaarheid{
+    flex-wrap: wrap; 
+
 }
 
 .textLeft {
@@ -78,28 +78,21 @@ section {
 }
 
 .textRight {
-    text-align: center;
-    display: inline-block;
+    text-align: left;
+    display: flex;
     margin-left: auto;
     margin-right: 50px;
-    width: 40%;
+    width: 50%;
 }
 
 .textRight img {
     margin-top: 100px;
 }
 
-#styleguide {
-    margin-bottom: 100px;
-    padding-left: 50px;
-    text-align: left;
-    width: 500px;
+#doelgroep {
+   align-content: right;
 }
 
-#styleguide img {
-    height: 65vh;
-    width: 50vw;
-}
 
 footer {
     text-align: center;
@@ -107,9 +100,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 10px;
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 500px) {
@@ -130,9 +123,6 @@ footer {
         padding: 20px 20px;
     }
 
-    #styleguide img {
-        height: 25vh;
-    }
 
     footer {
         position: relative;
