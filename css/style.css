@@ -18,7 +18,6 @@ body {
     font-size: 1.2em;
     line-height: 1.5;
     display: block;
-    flex-direction: column;
     text-align: center;
     margin: 0;
 }
@@ -46,7 +45,7 @@ header a:hover {
 }
 
 main {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
