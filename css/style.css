@@ -54,10 +54,10 @@ main {
 section {
     scroll-snap-align: center;
     background-color: cornsilk;
-    border: solid gold;
     padding: 5px;
-    width: 100%;
-    height: 67vh;
+    max-width: 800px;
+    /* height: 67vh; */
+    height: auto;
     margin: 40px auto;
 }
 
