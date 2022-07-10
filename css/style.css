@@ -23,8 +23,8 @@ body {
 }
 
 header {
-    background-color: red;
-    color: white;
+    background-color: #ff0000;
+    color: #ffffff;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +40,7 @@ header a {
 
 header a:hover {
     background-color: white;
-    color: black;
+    color: #000000;
 }
 
 main {
@@ -52,7 +52,7 @@ main {
 section {
     display: block;
     scroll-snap-align: center;
-    background-color: cornsilk;
+    background-color: #fff8dc;
     padding: 5px;
     max-width: 800px;
     /* height: 67vh; */
@@ -93,7 +93,7 @@ section {
 
 footer {
     text-align: center;
-    background-color: rgba(131, 101, 57, 0.3);
+    background-color: #8365394d;
     position: fixed;
     width: 100%;
     bottom: 0;
